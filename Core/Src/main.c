@@ -90,7 +90,7 @@ int main(void)
   /* USER CODE BEGIN 2 */
   HAL_TIM_Base_Start_IT(&htim1);
 
-  led_init(&Led1, 100, 2, 20);
+  led_init(&Led1, 100, 2, 10);
   /* USER CODE END 2 */
 
   /* Infinite loop */
